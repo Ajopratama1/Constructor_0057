@@ -27,7 +27,7 @@ void Mahasiswa::setID(){
 
 }
 
-void mahasiswa::printAll()
+void Mahasiswa::printAll()
 {
     cout << "ID = " << id << endl;
     cout << "Nama = " << nama << endl;
@@ -45,9 +45,9 @@ int main()
 
      mhs1.printAll();
 
-        mhs2.printAll();
-        mhs3.printAll();
-        mhs4.printAll();
+     mhs2.printAll();
+     mhs3.printAll();
+     mhs4.printAll();
 
         cout << "akses dari luar object = " << Mahasiswa::getNim() << endl;
         return 0;
