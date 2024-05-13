@@ -6,7 +6,7 @@ class Mahasiswa
 {
     public:
        static int nim;
-       int id
+       int id;
        string nama;
 
        void setID();
